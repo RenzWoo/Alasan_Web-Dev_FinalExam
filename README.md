@@ -44,12 +44,12 @@ source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
-
-# Run the backend server
-uvicorn main:app --reload
 ```
 
-### Step 2: Run Frontend
+### Step 2: backend server
+`uvicorn main:app --reload`
+
+### Step 3: Run Frontend
 
 **Option 1: Direct File Access**
 - Simply open `index.html` in your browser
@@ -59,16 +59,6 @@ uvicorn main:app --reload
 # From project root
 python -m http.server 3000
 ```
-
-## 🎯 Features
-
-### Core Features
-- ✅ **User Authentication** - Login and signup
-- ✅ **Create Posts** - Share your thoughts
-- ✅ **Like/Unlike Posts** - Show appreciation
-- ✅ **Comment System** - Engage in discussions
-- ✅ **User Profiles** - View your stats and posts
-- ✅ **Brainrot Detection** - Auto-filter low-quality content
 
 ### Brainrot Keywords (Banned)
 Posts and comments containing these words are automatically blocked:
