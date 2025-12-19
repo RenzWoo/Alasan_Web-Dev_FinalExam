@@ -46,7 +46,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Step 2: backend server
+### Step 2: Run Backend server
 - In terminal run: `uvicorn main:app --reload`
 
 ### Step 3: Run Frontend
