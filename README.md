@@ -16,7 +16,7 @@ project-root/
 │   │   └── style.css            # All styles
 │   └── js/
 │       └── main.js              # Frontend logic with Axios
-└── backend/
+└── Backend/
     ├── main.py                  # FastAPI application
     ├── models.py                # Database models
     ├── database.py              # Database configuration
@@ -30,7 +30,7 @@ project-root/
 
 ```bash
 # Navigate to backend folder
-cd backend
+cd Backend
 
 # Create virtual environment
 python -m venv venv
