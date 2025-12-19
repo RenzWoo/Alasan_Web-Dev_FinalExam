@@ -70,13 +70,8 @@ Posts and comments containing these words are automatically blocked:
 - fanum tax
 - griddy
 
-## 📡 API Documentation
 
-Once the backend is running, visit:
-- **Swagger UI:** http://localhost:8000/docs
-- **ReDoc:** http://localhost:8000/redoc
-
-### Main Endpoints
+## Main Endpoints
 
 #### Authentication
 - `POST /api/auth/login` - User login
