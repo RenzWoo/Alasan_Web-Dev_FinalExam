@@ -51,13 +51,14 @@ uvicorn main:app --reload
 
 ### Step 2: Run Frontend
 
-**Option 1: Simple HTTP Server**
+**Option 1: Direct File Access**
+- Simply open `index.html` in your browser
+
+**Option 2: Simple HTTP Server**
 ```bash
 # From project root
 python -m http.server 3000
 ```
-**Option 2: Direct File Access**
-- Simply open `index.html` in your browser
 
 ## 🎯 Features
 
@@ -78,19 +79,6 @@ Posts and comments containing these words are automatically blocked:
 - ohio
 - fanum tax
 - griddy
-
-### Delete Features
-- 🗑️ **Delete Own Posts** - Remove your posts anytime
-- 🗑️ **Delete Own Comments** - Remove your comments
-- 🗑️ **Delete Account** - Permanently delete your account and all data
-
-## 👤 Demo Account
-
-Login with:
-- **Email:** john@example.com
-- **Password:** password123
-
-Or create your own account!
 
 ## 📡 API Documentation
 
@@ -119,18 +107,5 @@ Once the backend is running, visit:
 - `POST /api/posts/{post_id}/comments` - Add comment
 - `DELETE /api/comments/{comment_id}` - Delete comment
 
-## 🛠️ Technology Stack
-
-### Frontend
-- HTML5
-- CSS3 (Custom styling)
-- Vanilla JavaScript
-- Axios (HTTP client)
-
-### Backend
-- FastAPI (Python web framework)
-- SQLModel (ORM)
-- SQLite (Database)
-- Uvicorn (ASGI server)
 
 ---
